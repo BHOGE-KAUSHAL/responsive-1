@@ -1,0 +1,9 @@
+units- 
+px(pixel) - fixed
+%(percent)-depends on parents
+vw-(viewports width)-depends on viewports width
+vh(viewports height)-depends on viewports height
+vmax (viewports maximum )-depends on maximum viewports
+vmin(viewports minimun)-depends on maximum viewports
+em- according to the parents and can be controlled by parent
+rem - according to the root and can be controlled by root

@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell;
+  color: white;
+  font-size: clamp(14px, 1vw, 18px);
+}
+
+body {
+  background-color: #1d1d1d;
+}
+
+section {
+  max-width: 1800px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  align-items: center;
+}
+main section {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+main section .top {
+  width: 100%;
+}
+main section .top img {
+  width: 100%;
+  border-radius: 10px;
+}
+main section .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: #292929;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+main section .bottom .text {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+main section .bottom .text h1 {
+  font-weight: 200;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+main section .bottom .text p {
+  font-weight: 100;
+  font-size: 1.3rem;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+main section .bottom .text button {
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+  outline: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  main section {
+    flex-direction: row;
+  }
+  main section .top,
+  main section .bottom {
+    width: 50%;
+  }
+  main section .bottom {
+    justify-content: space-between;
+    padding: 3rem;
+  }
+  main section .bottom .text {
+    gap: 1.5rem;
+  }
+  main section .bottom .text h1 {
+    font-size: 3.5rem;
+  }
+  main section .bottom .text p {
+    width: 60%;
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
